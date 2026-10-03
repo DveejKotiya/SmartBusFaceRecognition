@@ -1,0 +1,4 @@
+student_id,name,department,semester,bus_id,route,pass_start,pass_end,pass_status
+# REPLACE THESE ROWS WITH YOUR OWN STUDENT DATA:
+SAMPLE-001,John Doe,Computer Science,4,BUS-12,R-101,2026-07-01,2026-12-31,ACTIVE
+SAMPLE-002,Jane Smith,Mechanical,6,BUS-08,R-102,2026-07-01,2026-12-31,ACTIVE

@@ -1,0 +1,67 @@
+# =====================================================================
+# Git Ignore Rules: AI-Based Face Recognition & Smart Bus Pass System
+# Enforces Privacy by Design & Prevents Committing Biometric Data
+# =====================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Biometric Templates & Feature Embeddings (SENSITIVE)
+models/*.pkl
+models/embeddings.pkl
+data/evaluation/*.pkl
+data/evaluation/faces/
+
+# Physical Student Face Photographs (SENSITIVE BIOMETRICS)
+data/students/faces/**
+!data/students/faces/.gitkeep
+data/student_faces/**
+!data/student_faces/.gitkeep
+
+# SQLite Databases & Lock/Journal Files (SENSITIVE STUDENT RECORDS)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.db-journal
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Operational CSV Exports & Generated Reports
+exports/
+*.csv_export
+data/students/students_live.csv
+
+# Logs & Temporary Scratch Files
+logs/
+*.log
+scratch/
+.system_generated/
+
+# IDE & Operating System Caches
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Packaging & Distribution
+build/
+dist/
+*.egg-info/
+.eggs/

@@ -1,0 +1,4 @@
+student_id,name,department,semester,bus_id,route,pass_start,pass_end,pass_status
+21CS101,Aarav Sharma,Computer Science,6,BUS-12,R-101,2026-07-01,2026-12-31,ACTIVE
+21EC202,Priya Patel,Electronics,6,BUS-12,R-101,2026-01-01,2026-08-31,ACTIVE
+21ME303,Rohan Gupta,Mechanical,6,BUS-12,R-102,2026-07-01,2026-12-31,ACTIVE
