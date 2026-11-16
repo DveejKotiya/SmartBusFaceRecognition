@@ -317,7 +317,7 @@ python src/evaluation/performance_benchmark.py
 
 ## 17. Bus & Route Configuration
 
-All operational constants are centrally managed in [`src/config.py`](file:///d:/SmartBusFaceRecognition/src/config.py):
+All operational constants are centrally managed in [`src/config.py`](`src/config.py`):
 - `DEFAULT_BUS_ID = "BUS-12"`
 - `DEFAULT_ROUTE = "R-101"`
 - `DEFAULT_RECOGNITION_THRESHOLD = 0.60`
@@ -327,7 +327,7 @@ All operational constants are centrally managed in [`src/config.py`](file:///d:/
 
 ## 18. Liveness Detection Configuration
 
-Adjust liveness sensitivity in [`src/config.py`](file:///d:/SmartBusFaceRecognition/src/config.py):
+Adjust liveness sensitivity in [`src/config.py`](`src/config.py`):
 - `LIVENESS_ENABLED = True` (Set to `False` to run in development bypass mode)
 - `CHALLENGE_TIMEOUT_SECONDS = 3.0` (Seconds passenger has to turn their head)
 - `MIN_FRAMES_REQUIRED = 3` (Minimum frames needed before granting entry)
